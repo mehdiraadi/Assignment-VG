@@ -1,12 +1,19 @@
 package com.assnmt.classes;
+import java.awt.TextField;
+import java.io.File;
 
+import javax.swing.JFileChooser;
+
+import com.assnmnt.GUI.ViewClass;
 import com.assnmt.interfaces.PlayerInterface;
 
 import jaco.mp3.player.MP3Player;
 
 public class PlayerMethods implements PlayerInterface{
 	
-	private MP3Player player=new MP3Player();
+	
+	
+	private MP3Player player;
 
 	public MP3Player getPlayer() {
 		return player;
@@ -16,17 +23,13 @@ public class PlayerMethods implements PlayerInterface{
 		this.player = player;
 	}
 
-	@Override
-	public void open() {
-		
-		
-		
-	}
+	
 
 	@Override
-	public void play() {
+	public void play1() {
 		
 		player.play();
+		return;
 		
 		
 	}
@@ -34,6 +37,7 @@ public class PlayerMethods implements PlayerInterface{
 	@Override
 	public void pause() {
 		player.pause();
+		return;
 		
 		
 	}
@@ -41,6 +45,7 @@ public class PlayerMethods implements PlayerInterface{
 	@Override
 	public void stop() {
 		player.stop();
+		return;
 		
 		
 	}

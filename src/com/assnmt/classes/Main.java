@@ -1,5 +1,19 @@
 package com.assnmt.classes;
 
-public class Main {
 
+
+import com.assnmnt.GUI.ViewClass;
+
+
+
+public class Main {
+	public static void main(String[] args) {
+		
+					ViewClass vc = new ViewClass();
+					
+	}
+		
+		
 }
+
+
