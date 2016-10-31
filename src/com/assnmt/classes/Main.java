@@ -2,8 +2,8 @@ package com.assnmt.classes;
 
 import com.assnmnt.GUI.ViewClass;
 /**
- * This is the main class to implement the MP3Player
- * @author Jasmi
+ * This is the Main class to implement the MP3Player
+ * @author Jasmi Shaheer
  * @version 1.0
  * */
 

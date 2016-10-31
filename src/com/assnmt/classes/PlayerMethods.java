@@ -1,19 +1,14 @@
 package com.assnmt.classes;
 
-import java.awt.TextField;
-
-import java.io.File;
-
-import javax.swing.JFileChooser;
-
-import com.assnmnt.GUI.ViewClass;
 import com.assnmt.interfaces.PlayerInterface;
 
 import jaco.mp3.player.MP3Player;
 
 /**
- * @author Jasmi
- * @version 1.0 This is the class which implements the PlayerInterface methods.
+ * Class which implements the PlayerInterface methods
+ * 
+ * @author Jasmi Shaheer
+ * @version 1.0
  * 
  */
 
@@ -27,7 +22,7 @@ public class PlayerMethods implements PlayerInterface {
 	private MP3Player player;
 
 	/**
-	 * These are the getters and setters for the attribute MP3Player
+	 * Getters and setters for the attribute MP3Player
 	 * 
 	 */
 
@@ -40,9 +35,9 @@ public class PlayerMethods implements PlayerInterface {
 	}
 
 	/**
-	 * Play method to play music
+	 * Plays music
 	 * 
-	 * @param
+	 * @param none
 	 * @return none
 	 */
 
@@ -50,35 +45,35 @@ public class PlayerMethods implements PlayerInterface {
 	public void play1() {
 
 		player.play();
-		return;
+		
 
 	}
 
 	/**
-	 * Pause method to pause the music
+	 * Pauses the music
 	 * 
-	 * @param
+	 * @param none
 	 * @return none
 	 */
 
 	@Override
 	public void pause() {
 		player.pause();
-		return;
+		
 
 	}
 
 	/**
-	 * Stop method to stop the music
+	 * It stops the music
 	 * 
-	 * @param
+	 * @param none
 	 * @return none
 	 * 
 	 */
 	@Override
 	public void stop() {
 		player.stop();
-		return;
+		
 
 	}
 
